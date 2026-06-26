@@ -24,11 +24,11 @@ print("Step 3: OCR")
 subprocess.run([paddle_python, "src/pipelines/ocr.py"], check=True)
 
 # Step 4: Brand prediction
-print("Step 4: Brand prediction")
-subprocess.run([tf_python, "src/pipelines/brand-predict.py"], check=True)
+# print("Step 4: Brand prediction")
+# subprocess.run([tf_python, "src/pipelines/brand-predict.py"], check=True)
 
 # Step 5: Color prediction
-print("Step 5: Color prediction")
-subprocess.run([tf_python, "src/pipelines/color-predict.py"], check=True)
+# print("Step 5: Color prediction")
+# subprocess.run([tf_python, "src/pipelines/color-predict.py"], check=True)
 
 print("✅ Pipeline finished")
