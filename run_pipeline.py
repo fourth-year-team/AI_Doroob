@@ -1,6 +1,9 @@
 import subprocess
 import os
 
+os.environ["FLAGS_enable_ir_optim"] = "0"
+os.environ["FLAGS_use_mkldnn"] = "0"
+
 print("Starting full pipeline...")
 
 BASE = os.getcwd()
